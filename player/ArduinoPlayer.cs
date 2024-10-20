@@ -21,7 +21,7 @@ public partial class ArduinoPlayer : CharacterBody2D
 	public override void _Ready()
 	{
 		// Inicializamos el puerto serial en COM5
-		serialPort = new SerialPort("COM5", 9600);  // Ajustamos a COM5
+		serialPort = new SerialPort("COM3", 9600);  // Ajustamos a COM5
 		serialPort.Open();
 	}
 
