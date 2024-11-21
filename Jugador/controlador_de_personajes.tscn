@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://4ye347eh6sj"]
+
+[ext_resource type="Script" path="res://controlador_de_personajes.gd" id="1_nff28"]
+[ext_resource type="PackedScene" uid="uid://dkg15js7ch0ne" path="res://Jugador/player.tscn" id="2_orduh"]
+[ext_resource type="PackedScene" uid="uid://pt27a66tihvg" path="res://Jugador/jugador2.tscn" id="3_qgxfo"]
+[ext_resource type="PackedScene" uid="uid://yjg827olvrr3" path="res://Jugador/jugador3.tscn" id="4_0e12m"]
+
+[node name="ControladorDePersonajes" type="Node2D"]
+script = ExtResource("1_nff28")
+escena_personaje_a = ExtResource("2_orduh")
+escena_personaje_b = ExtResource("3_qgxfo")
+escena_personaje_c = ExtResource("4_0e12m")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

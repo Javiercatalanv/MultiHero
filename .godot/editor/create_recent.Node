@@ -1,0 +1,14 @@
+Timer
+Node2D
+CollisionShape2D
+Area2D
+Sprite2D
+StaticBody2D
+CharacterBody2D
+Node
+Camera2D
+ParallaxLayer
+ParallaxBackground
+TileMap
+RigidBody2D
+AnimationPlayer

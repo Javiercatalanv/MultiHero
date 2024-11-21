@@ -1,0 +1,127 @@
+[gd_scene load_steps=12 format=3 uid="uid://dkg15js7ch0ne"]
+
+[ext_resource type="Script" path="res://Jugador/player.gd" id="1_dotwc"]
+[ext_resource type="Texture2D" uid="uid://bei7x67psb4c4" path="res://Assets_PixelAdventure/Main Characters/Mask Dude.png" id="1_fjs0w"]
+[ext_resource type="PackedScene" uid="uid://bcy6bw3lfbplp" path="res://Jugador/Ataque.tscn" id="2_cbrc7"]
+[ext_resource type="PackedScene" uid="uid://b6vvmcvxppv" path="res://Jugador/ataque_normal.tscn" id="3_crcyi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hidqw"]
+size = Vector2(21, 21)
+
+[sub_resource type="Animation" id="Animation_uiwns"]
+resource_name = "Caer"
+length = 0.1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("playerSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [24]
+}
+
+[sub_resource type="Animation" id="Animation_8jqc5"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("playerSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+
+[sub_resource type="Animation" id="Animation_lv62h"]
+resource_name = "Salto"
+length = 0.1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("playerSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [23]
+}
+
+[sub_resource type="Animation" id="Animation_rgsjo"]
+resource_name = "correr"
+length = 1.15
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("playerSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+}
+
+[sub_resource type="Animation" id="Animation_3ajtj"]
+resource_name = "idel"
+length = 0.95
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("playerSprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ayk0p"]
+_data = {
+"Caer": SubResource("Animation_uiwns"),
+"RESET": SubResource("Animation_8jqc5"),
+"Salto": SubResource("Animation_lv62h"),
+"correr": SubResource("Animation_rgsjo"),
+"idel": SubResource("Animation_3ajtj")
+}
+
+[node name="Player" type="CharacterBody2D" groups=["jugador"]]
+collision_mask = 3
+script = ExtResource("1_dotwc")
+ataqueNieve = ExtResource("2_cbrc7")
+ataqueNormal = ExtResource("3_crcyi")
+
+[node name="playerSprite" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_fjs0w")
+hframes = 11
+vframes = 4
+frame = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 5.5)
+shape = SubResource("RectangleShape2D_hidqw")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_ayk0p")
+}
+
+[node name="Camera2D" type="Camera2D" parent="."]
