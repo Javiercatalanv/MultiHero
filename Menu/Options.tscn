@@ -1,0 +1,79 @@
+[gd_scene load_steps=8 format=3 uid="uid://fyc6ib78bey3"]
+
+[ext_resource type="Script" path="res://Menu/options.gd" id="1_fob7q"]
+[ext_resource type="Texture2D" uid="uid://cqorubxr3rbaj" path="res://FONDO1.jpg" id="2_rhol2"]
+[ext_resource type="FontFile" uid="uid://3lhpoqw7cwoo" path="res://Fonts/Pixels/TTF/dogicapixelbold.ttf" id="3_1t212"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7n2mt"]
+bg_color = Color(0.187176, 0.187176, 0.187176, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xpa76"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0tndf"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_26jnw"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="Options" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fob7q")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_rhol2")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -89.0
+offset_top = -26.0
+offset_right = 110.0
+offset_bottom = 35.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Volume" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_1t212")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/pressed = SubResource("StyleBoxFlat_7n2mt")
+theme_override_styles/normal = SubResource("StyleBoxFlat_xpa76")
+text = "Volumen"
+
+[node name="Controles" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_1t212")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxFlat_0tndf")
+text = "Controles"
+
+[node name="Back" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_1t212")
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxFlat_26jnw")
+text = "Atrás"
+
+[connection signal="pressed" from="VBoxContainer/Volume" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Volume" to="." method="_on_volume_pressed"]
+[connection signal="pressed" from="VBoxContainer/Controles" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="VBoxContainer/Controles" to="." method="_on_controles_pressed"]
+[connection signal="pressed" from="VBoxContainer/Back" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="VBoxContainer/Back" to="." method="_on_back_pressed"]

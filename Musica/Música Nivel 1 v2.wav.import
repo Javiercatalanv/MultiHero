@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ce4ws5j3po6y7"
+path="res://.godot/imported/Música Nivel 1 v2.wav-aa75294ad73e2f5988b76e818438580b.sample"
+
+[deps]
+
+source_file="res://Musica/Música Nivel 1 v2.wav"
+dest_files=["res://.godot/imported/Música Nivel 1 v2.wav-aa75294ad73e2f5988b76e818438580b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=2730240
+edit/loop_end=6826560
+compress/mode=0

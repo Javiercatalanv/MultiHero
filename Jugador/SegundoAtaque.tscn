@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://by5m3anmqlo7w"]
+
+[ext_resource type="Texture2D" uid="uid://d02l7nnnfajd3" path="res://Assets_PixelAdventure/Parallax/parallax-01.png" id="1_tri5d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8se2n"]
+size = Vector2(1440, 123.033)
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(0, 0.0937484)
+scale = Vector2(0.0777778, 0.0828125)
+texture = ExtResource("1_tri5d")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 2
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(9.80922e-05, 120.762)
+shape = SubResource("RectangleShape2D_8se2n")

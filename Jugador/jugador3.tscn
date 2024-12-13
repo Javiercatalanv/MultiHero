@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://yjg827olvrr3"]
+
+[ext_resource type="Script" path="res://Jugador/jugador_3.gd" id="1_tfxm4"]
+[ext_resource type="Texture2D" uid="uid://kopuokdtkvuq" path="res://Assets_PixelAdventure/Main Characters/Pink.png" id="1_tlwxa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c4pyi"]
+size = Vector2(21, 21)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+collision_layer = 8
+collision_mask = 8
+script = ExtResource("1_tfxm4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_tlwxa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 5.5)
+shape = SubResource("RectangleShape2D_c4pyi")
+
+[node name="Camera2D" type="Camera2D" parent="."]

@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=3 uid="uid://bt4qnavl5rwva"]
+
+[ext_resource type="Script" path="res://NFCReader.cs" id="1_q08j1"]
+[ext_resource type="Script" path="res://simon.gd" id="1_yw6mf"]
+
+[node name="simon" type="Node2D"]
+position = Vector2(602, 323)
+script = ExtResource("1_yw6mf")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -822.0
+offset_top = -420.0
+offset_right = 729.0
+offset_bottom = 429.0
+color = Color(0, 0, 0, 1)
+
+[node name="rect_rojo" type="ColorRect" parent="."]
+offset_left = 43.0
+offset_top = -324.0
+offset_right = 547.0
+offset_bottom = -52.0
+color = Color(0.402293, 0.0237525, 0.0236362, 1)
+
+[node name="rect_azul" type="ColorRect" parent="."]
+offset_left = 43.0
+offset_top = 51.0
+offset_right = 547.0
+offset_bottom = 323.0
+color = Color(3.36915e-07, 0, 0.26796, 1)
+
+[node name="rect_verde" type="ColorRect" parent="."]
+offset_left = -599.0
+offset_top = -326.0
+offset_right = -95.0
+offset_bottom = -54.0
+color = Color(0.0352941, 0.290196, 0.117647, 1)
+
+[node name="rect_amarillo" type="ColorRect" parent="."]
+offset_left = -599.0
+offset_top = 51.0
+offset_right = -95.0
+offset_bottom = 323.0
+color = Color(0.407552, 0.334585, 9.62615e-08, 1)
+
+[node name="NFCReader" type="Node2D" parent="."]
+script = ExtResource("1_q08j1")

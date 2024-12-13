@@ -1,0 +1,141 @@
+[gd_scene load_steps=25 format=3 uid="uid://dkg15js7ch0ne"]
+
+[ext_resource type="Script" path="res://Jugador/Player.cs" id="1_fdvla"]
+[ext_resource type="PackedScene" uid="uid://bcy6bw3lfbplp" path="res://Jugador/Ataque.tscn" id="2_5akrc"]
+[ext_resource type="PackedScene" uid="uid://b6vvmcvxppv" path="res://Jugador/ataque_normal.tscn" id="3_45h6x"]
+[ext_resource type="Texture2D" uid="uid://by3mh268tb2jj" path="res://SPRITESJETT/TIRO1.png" id="4_hgij5"]
+[ext_resource type="Texture2D" uid="uid://dnra0klmfuewm" path="res://SPRITESJETT/TIRO2.png" id="5_go71y"]
+[ext_resource type="Texture2D" uid="uid://cndge66vt5e88" path="res://SPRITESJETT/DAÑO.png" id="6_iaxno"]
+[ext_resource type="Texture2D" uid="uid://rt8akse6u18i" path="res://SPRITESJETT/SALTO2.png" id="7_86y2s"]
+[ext_resource type="Texture2D" uid="uid://duxkjuu04nhtd" path="res://SPRITESJETT/SALTO22.png" id="8_g7j44"]
+[ext_resource type="Texture2D" uid="uid://cj6skug43lwx3" path="res://SPRITESJETT/GAMEOVER1.png" id="9_3alaw"]
+[ext_resource type="Texture2D" uid="uid://cah6at85pgkmd" path="res://SPRITESJETT/GAMEOVER2.png" id="10_s5w11"]
+[ext_resource type="Texture2D" uid="uid://y2hiiuoixsw5" path="res://SPRITESJETT/GAMEOVER3.png" id="11_ii0ko"]
+[ext_resource type="Texture2D" uid="uid://cn3i33myxkim5" path="res://SPRITESJETT/GAMEOVER4.png" id="12_axudq"]
+[ext_resource type="Texture2D" uid="uid://cc2mm2c2jxqcv" path="res://SPRITESJETT/IDLE1.png" id="13_thjtb"]
+[ext_resource type="Texture2D" uid="uid://d28kgc5fwgko5" path="res://SPRITESJETT/IDLE2.png" id="14_e0gqj"]
+[ext_resource type="Texture2D" uid="uid://de3eb7notk01o" path="res://SPRITESJETT/IDLE3.png" id="15_fx2j4"]
+[ext_resource type="Texture2D" uid="uid://dph4uj5473ks5" path="res://SPRITESJETT/IDLE4.png" id="16_fobc5"]
+[ext_resource type="Texture2D" uid="uid://d1ia1spbvgva7" path="res://SPRITESJETT/SALTO1.png" id="17_4hnoi"]
+[ext_resource type="Texture2D" uid="uid://cnvn7ms0xovue" path="res://SPRITESJETT/SALTO12.png" id="18_bq1h4"]
+[ext_resource type="Texture2D" uid="uid://d0chh3u5b17w4" path="res://SPRITESJETT/RUN1.png" id="19_8om2m"]
+[ext_resource type="Texture2D" uid="uid://ylhiblm214w1" path="res://SPRITESJETT/RUN2.png" id="20_x1xm7"]
+[ext_resource type="Texture2D" uid="uid://cabv5u2wac6e6" path="res://SPRITESJETT/RUN3.png" id="21_8s115"]
+[ext_resource type="Texture2D" uid="uid://irb0w5b2x21u" path="res://SPRITESJETT/RUN4.png" id="22_kwkgb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hidqw"]
+size = Vector2(21, 21)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8qdvp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_hgij5")
+}, {
+"duration": 2.0,
+"texture": ExtResource("5_go71y")
+}],
+"loop": true,
+"name": &"ATTACK",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_iaxno")
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": true,
+"name": &"DAMAGE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_86y2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_g7j44")
+}],
+"loop": true,
+"name": &"FALL",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_3alaw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_s5w11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ii0ko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_axudq")
+}],
+"loop": true,
+"name": &"GAMEOVER",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_thjtb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_e0gqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_fx2j4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_fobc5")
+}],
+"loop": true,
+"name": &"IDLE",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_4hnoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bq1h4")
+}],
+"loop": true,
+"name": &"JUMP",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_8om2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_x1xm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_8s115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_kwkgb")
+}],
+"loop": true,
+"name": &"RUN",
+"speed": 5.0
+}]
+
+[node name="Player" type="CharacterBody2D" groups=["jugador"]]
+collision_mask = 3
+script = ExtResource("1_fdvla")
+AtaqueNieve = ExtResource("2_5akrc")
+AtaqueNormal = ExtResource("3_45h6x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 5.5)
+shape = SubResource("RectangleShape2D_hidqw")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_8qdvp")
+animation = &"GAMEOVER"

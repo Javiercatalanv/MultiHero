@@ -1,0 +1,70 @@
+[gd_scene load_steps=5 format=3 uid="uid://betdfsjybsiwc"]
+
+[ext_resource type="Script" path="res://Menu/audio.gd" id="1_luw4p"]
+[ext_resource type="Texture2D" uid="uid://cqorubxr3rbaj" path="res://FONDO1.jpg" id="2_liw2a"]
+[ext_resource type="FontFile" uid="uid://3lhpoqw7cwoo" path="res://Fonts/Pixels/TTF/dogicapixelbold.ttf" id="4_w65pj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_munw6"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="AudioOption" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_luw4p")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_liw2a")
+expand_mode = 1
+
+[node name="Audio" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Audio"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.275
+anchor_top = 1.6
+anchor_right = 9.675
+anchor_bottom = 4.35
+offset_bottom = -1.52588e-05
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Musica" type="Label" parent="Audio/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_fonts/font = ExtResource("4_w65pj")
+text = "Música"
+
+[node name="Audio Slider" type="HSlider" parent="Audio/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 2
+max_value = 1.0
+step = 0.05
+
+[node name="Confirm" type="Button" parent="Audio"]
+layout_mode = 0
+offset_left = 157.0
+offset_top = 181.0
+offset_right = 271.0
+offset_bottom = 201.0
+theme_override_fonts/font = ExtResource("4_w65pj")
+theme_override_font_sizes/font_size = 12
+theme_override_styles/normal = SubResource("StyleBoxFlat_munw6")
+text = "Confirmar"
+
+[connection signal="mouse_exited" from="Audio/VBoxContainer/Audio Slider" to="Audio" method="_on_audio_slider_mouse_exited"]
+[connection signal="pressed" from="Audio/Confirm" to="." method="_on_confirm_pressed"]

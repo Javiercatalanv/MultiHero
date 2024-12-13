@@ -1,0 +1,150 @@
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.AssemblyReference.cache
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfoInputs.cache
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfo.cs
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.CoreCompileInputs.cache
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\movimiento personaje.deps.json
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\movimiento personaje.runtimeconfig.json
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\movimiento personaje.dll
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\movimiento personaje.pdb
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\System.IO.Ports.dll
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\win\lib\net6.0\System.IO.Ports.dll
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.CopyComplete
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.dll
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\refint\movimiento personaje.dll
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.pdb
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.genruntimeconfig.cache
+C:\Users\monse\quinto semestre\MultiHero-Negro\.godot\mono\temp\obj\Debug\ref\movimiento personaje.dll
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\movimiento personaje.deps.json
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\movimiento personaje.runtimeconfig.json
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\movimiento personaje.dll
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\movimiento personaje.pdb
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\System.IO.Ports.dll
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\bin\Debug\runtimes\win\lib\net6.0\System.IO.Ports.dll
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.AssemblyReference.cache
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfoInputs.cache
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfo.cs
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.CoreCompileInputs.cache
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimien.2AB3E446.Up2Date
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.dll
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\refint\movimiento personaje.dll
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.pdb
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\movimiento personaje.genruntimeconfig.cache
+C:\Users\Pablo Jorquera\Documents\MultiHero-Negro\.godot\mono\temp\obj\Debug\ref\movimiento personaje.dll
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.deps.json
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.runtimeconfig.json
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.dll
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.pdb
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\System.IO.Ports.dll
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\win\lib\net6.0\System.IO.Ports.dll
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.AssemblyReference.cache
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfoInputs.cache
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfo.cs
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.CoreCompileInputs.cache
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimien.2AB3E446.Up2Date
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.dll
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\refint\movimiento personaje.dll
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.pdb
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.genruntimeconfig.cache
+C:\Users\Javier Catalán\Desktop\U\Proyecto Juego\MultiHeroOficial\.godot\mono\temp\obj\Debug\ref\movimiento personaje.dll
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.deps.json
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.runtimeconfig.json
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.dll
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.pdb
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\System.IO.Ports.dll
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\win\lib\net6.0\System.IO.Ports.dll
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.AssemblyReference.cache
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfoInputs.cache
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfo.cs
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.CoreCompileInputs.cache
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimien.2AB3E446.Up2Date
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.dll
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\refint\movimiento personaje.dll
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.pdb
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.genruntimeconfig.cache
+C:\Users\ienza\Downloads\MultiHeroOficialMinijuego\MultiHeroOficial\.godot\mono\temp\obj\Debug\ref\movimiento personaje.dll
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.deps.json
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.runtimeconfig.json
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.dll
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.pdb
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\System.IO.Ports.dll
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\win\lib\net6.0\System.IO.Ports.dll
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.AssemblyReference.cache
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfoInputs.cache
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfo.cs
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.CoreCompileInputs.cache
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimien.2AB3E446.Up2Date
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.dll
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\refint\movimiento personaje.dll
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.pdb
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.genruntimeconfig.cache
+C:\Users\Pablo Jorquera\Downloads\MultiHeroOficialMinijuegoConSprites\MultiHeroOficial\.godot\mono\temp\obj\Debug\ref\movimiento personaje.dll
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.deps.json
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.runtimeconfig.json
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.dll
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\movimiento personaje.pdb
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\System.IO.Ports.dll
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\unix\lib\net6.0\System.IO.Ports.dll
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\bin\Debug\runtimes\win\lib\net6.0\System.IO.Ports.dll
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.AssemblyReference.cache
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfoInputs.cache
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.AssemblyInfo.cs
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.csproj.CoreCompileInputs.cache
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimien.2AB3E446.Up2Date
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.dll
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\refint\movimiento personaje.dll
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.pdb
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\movimiento personaje.genruntimeconfig.cache
+C:\Users\monse\Documents\MultiHeroOficial\MultiHeroOficial\.godot\mono\temp\obj\Debug\ref\movimiento personaje.dll

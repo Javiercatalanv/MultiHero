@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://yjg827olvrr3"]
+
+[ext_resource type="Script" path="res://Enemigos/enemigo_lanzador.gd" id="1_imcak"]
+[ext_resource type="Texture2D" uid="uid://kopuokdtkvuq" path="res://Assets_PixelAdventure/Main Characters/Pink.png" id="2_sq1vo"]
+[ext_resource type="PackedScene" uid="uid://bt54gbwgym6cl" path="res://Enemigos/ataque_enemigo.tscn" id="2_t4ros"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c4pyi"]
+size = Vector2(21, 21)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qapap"]
+size = Vector2(401, 207.5)
+
+[node name="CharacterBody2D" type="CharacterBody2D" groups=["Enemigo"]]
+collision_layer = 8
+collision_mask = 8
+script = ExtResource("1_imcak")
+prefab_proyectil = ExtResource("2_t4ros")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_sq1vo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 5.5)
+shape = SubResource("RectangleShape2D_c4pyi")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 5
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+light_mask = 5
+visibility_layer = 5
+position = Vector2(0.5, -88)
+shape = SubResource("RectangleShape2D_qapap")
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
