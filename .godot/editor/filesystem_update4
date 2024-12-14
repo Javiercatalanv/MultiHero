@@ -1,0 +1,5 @@
+res://Jugador/Atlas.tscn
+res://Niveles/MundoTutorial.tscn
+res://Niveles/MUNDO_3.tscn
+res://Niveles/mundo_2.gd
+res://Niveles/DeathZone.gd

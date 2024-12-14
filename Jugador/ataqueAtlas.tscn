@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://bn3mypbqertqc"]
+
+[ext_resource type="Script" path="res://Jugador/ataqueAtlas.gd" id="1_alijg"]
+[ext_resource type="Texture2D" uid="uid://ceh3t1aa2oubf" path="res://Assets_PixelAdventure/LaserAtlas.png" id="2_825w7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n5fff"]
+size = Vector2(25, 11)
+
+[node name="AtaqueJugador2" type="Node2D"]
+script = ExtResource("1_alijg")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(4.76837e-07, 0)
+scale = Vector2(0.0255448, 0.0297081)
+texture = ExtResource("2_825w7")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-0.5, -0.5)
+shape = SubResource("RectangleShape2D_n5fff")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

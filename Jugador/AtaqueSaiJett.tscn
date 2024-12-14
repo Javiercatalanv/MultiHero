@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://bcy6bw3lfbplp"]
+
+[ext_resource type="Script" path="res://Jugador/AtaqueSaiJett.gd" id="1_rbqnd"]
+[ext_resource type="Texture2D" uid="uid://6bsfvret8xj" path="res://Assets_PixelAdventure/Items/Fruits/CherryIcon.png" id="2_b3awk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b44im"]
+size = Vector2(20, 8)
+
+[node name="Ataque" type="Node2D"]
+script = ExtResource("1_rbqnd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(0, 9.53674e-07)
+scale = Vector2(2.02734, 1.19922)
+texture = ExtResource("2_b3awk")
+
+[node name="hitBox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitBox"]
+shape = SubResource("RectangleShape2D_b44im")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+
+[connection signal="body_entered" from="hitBox" to="." method="_on_hit_box_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

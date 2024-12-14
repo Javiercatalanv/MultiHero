@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dnnp7jw7pgc0r"]
+
+[ext_resource type="Script" path="res://Jugador/llave.gd" id="1_li1if"]
+[ext_resource type="Texture2D" uid="uid://d3423uqcbm7im" path="res://Assets_PixelAdventure/Master 27s_Key.png" id="2_gdica"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5am4a"]
+size = Vector2(21, 14)
+
+[node name="llave" type="Node2D"]
+script = ExtResource("1_li1if")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_gdica")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 5
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0.5, 3)
+shape = SubResource("RectangleShape2D_5am4a")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

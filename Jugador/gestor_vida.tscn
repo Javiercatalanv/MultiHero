@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxv2525utsaty"]
+
+[ext_resource type="Script" path="res://Jugador/gestor_vida.gd" id="1_qjk8h"]
+[ext_resource type="Texture2D" uid="uid://csxmu0dn7ulol" path="res://Imagenes/VidasSinFondo.png" id="2_qtkki"]
+
+[node name="gestorVida" type="Node"]
+script = ExtResource("1_qjk8h")
+
+[node name="CorazonIzquierda" type="Sprite2D" parent="."]
+position = Vector2(15.1406, 14.3281)
+scale = Vector2(0.0595566, 0.0547971)
+texture = ExtResource("2_qtkki")
+
+[node name="CorazonMedio" type="Sprite2D" parent="."]
+position = Vector2(43, 14)
+scale = Vector2(0.0635646, 0.0527931)
+texture = ExtResource("2_qtkki")
+
+[node name="CorazonDerecha" type="Sprite2D" parent="."]
+position = Vector2(71, 14)
+scale = Vector2(0.0590478, 0.0557834)
+texture = ExtResource("2_qtkki")

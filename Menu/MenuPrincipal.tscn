@@ -1,0 +1,106 @@
+[gd_scene load_steps=10 format=3 uid="uid://dxseykiywcoka"]
+
+[ext_resource type="Script" path="res://Menu/menu_principal.gd" id="1_4g1wr"]
+[ext_resource type="Texture2D" uid="uid://cqorubxr3rbaj" path="res://Imagenes/FONDO1.jpg" id="1_dxuk6"]
+[ext_resource type="FontFile" uid="uid://3lhpoqw7cwoo" path="res://Fonts/Pixels/TTF/dogicapixelbold.ttf" id="3_6y562"]
+[ext_resource type="Texture2D" uid="uid://qecfw040ybli" path="res://Menu/UCNLOGO.png" id="4_7htby"]
+[ext_resource type="Texture2D" uid="uid://dlog6w5c6qyc4" path="res://Imagenes/EIC LOGO.png" id="5_af8qf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7n2mt"]
+bg_color = Color(0.187176, 0.187176, 0.187176, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xpa76"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0tndf"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_26jnw"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="MenuPrincipal" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4g1wr")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_dxuk6")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -78.0
+offset_top = -23.0
+offset_right = 73.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 2
+
+[node name="Play" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_6y562")
+theme_override_font_sizes/font_size = 13
+theme_override_styles/pressed = SubResource("StyleBoxFlat_7n2mt")
+theme_override_styles/normal = SubResource("StyleBoxFlat_xpa76")
+text = "Jugar"
+
+[node name="Settings" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_6y562")
+theme_override_font_sizes/font_size = 13
+theme_override_styles/normal = SubResource("StyleBoxFlat_0tndf")
+text = "Opciones"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_6y562")
+theme_override_font_sizes/font_size = 13
+theme_override_styles/normal = SubResource("StyleBoxFlat_26jnw")
+text = "Salir"
+
+[node name="UCN" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(48, 40)
+scale = Vector2(0.0691384, 0.0670198)
+texture = ExtResource("4_7htby")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 320.0
+offset_top = 12.0
+offset_right = -2.0
+offset_bottom = -186.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.607843)
+
+[node name="EIC" type="Sprite2D" parent="ColorRect"]
+texture_filter = 1
+texture_repeat = 1
+position = Vector2(47.75, 20.5)
+scale = Vector2(0.199374, 0.195238)
+texture = ExtResource("5_af8qf")
+
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
